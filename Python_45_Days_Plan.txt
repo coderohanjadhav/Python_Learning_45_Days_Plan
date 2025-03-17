@@ -1,0 +1,146 @@
+Week 1: Python Basics & Core Syntax
+Day 1: Introduction to Python
+Python installation & setup
+Running Python scripts vs. interactive mode
+Understanding Python syntax & indentation
+Day 2: Variables & Data Types
+Numeric types (int, float, complex)
+Boolean (True, False)
+Strings (str), String operations
+Day 3: Data Structures - Lists
+Creating, modifying lists
+List methods (append(), pop(), sort())
+List comprehensions
+Day 4: Data Structures - Tuples & Sets
+Tuple properties & immutability
+Set operations (union, intersection, difference)
+Day 5: Data Structures - Dictionaries
+Dictionary keys & values
+Dictionary methods (get(), update(), pop())
+Nested dictionaries
+Day 6: Operators & Expressions
+Arithmetic, comparison, logical operators
+Membership & identity operators
+Day 7: Control Flow (if-else, loops)
+if, elif, else
+for & while loops
+Loop control (break, continue, pass)
+
+Week 2: Functions & Modules
+Day 8: Functions
+Defining functions, arguments, return values
+Default & keyword arguments
+Variable-length arguments (*args, **kwargs)
+Day 9: Lambda Functions & Built-in Functions
+Anonymous functions with lambda
+map(), filter(), reduce()
+Day 10: Modules & Packages
+Importing modules
+Writing custom modules
+pip and installing external packages
+Day 11: File Handling
+Reading & writing files (open(), read(), write())
+Working with CSV files
+Day 12: Exception Handling
+try, except, finally
+Raising exceptions (raise)
+Custom exceptions
+Day 13: Python Debugging & Logging
+Debugging techniques (print(), pdb)
+Logging with logging module
+Day 14: Working with Date & Time
+datetime module
+Formatting and parsing dates
+
+Week 3: Object-Oriented Programming (OOP)
+Day 15: Classes & Objects
+Defining classes & objects
+__init__ method
+Instance vs. class variables
+Day 16: Methods & Attributes
+Instance methods, class methods, static methods
+@classmethod, @staticmethod
+Day 17: Inheritance & Polymorphism
+Single & multiple inheritance
+Method Overriding
+super() function
+Day 18: Encapsulation & Abstraction
+Private & protected attributes
+Abstract classes (ABC module)
+Day 19: Special (dunder) Methods
+__str__(), __repr__()
+Operator overloading (__add__(), __eq__())
+Day 20: OOP Project
+Small project to apply OOP concepts
+
+Week 4: Advanced Python Concepts
+Day 21: Iterators & Generators
+iter() & next()
+Generator functions (yield)
+Day 22: Decorators & Closures
+Function decorators
+functools.wraps
+Day 23: Multi-threading & Multiprocessing
+Threading basics (threading module)
+Parallel processing (multiprocessing module)
+Day 24: Regular Expressions
+re module
+Pattern matching, groups
+Day 25: Memory Management & Garbage Collection
+Reference counting
+gc module
+Day 26: Python Virtual Environments
+venv & virtualenv
+Dependency management
+Day 27: Working with APIs
+requests module
+Handling JSON responses
+
+Week 5: Data Science & Automation with Python
+Day 28: NumPy Basics
+Arrays, indexing, slicing
+Mathematical operations
+Day 29: Pandas Basics
+DataFrames, Series
+Reading & writing data
+Day 30: Matplotlib & Seaborn
+Basic data visualization
+Day 31: Web Scraping
+BeautifulSoup
+Selenium basics
+Day 32: Automating Tasks
+pyautogui
+os & shutil modules
+Day 33: Working with Databases
+sqlite3 module
+CRUD operations
+Day 34: GUI Programming
+Tkinter basics
+Day 35: Small Python Automation Project
+Apply automation skills
+
+Week 6: Advanced Topics & Real-World Applications
+Day 36: Working with Large Files
+Handling large datasets efficiently
+Day 37: Async Programming
+asyncio
+await keyword
+Day 38: Unit Testing
+unittest module
+Writing test cases
+Day 39: Building a Python Web App
+Flask basics
+Day 40: Django Introduction
+Creating a simple Django project
+Day 41: Cloud & Deployment
+Hosting Python apps on AWS, Azure
+Day 42: Best Practices & Code Optimization
+Writing efficient code
+timeit module
+Day 43: Final Mini Project
+Develop a small real-world Python application
+Day 44: Python Interview Prep
+Common coding challenges
+Best practices for interviews
+Day 45: Summary & Future Learning Path
+Review & plan next steps (ML, AI, RPA, etc.)

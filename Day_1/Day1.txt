@@ -1,0 +1,22 @@
+Indentation:
+
+4 spaces are used in indentation.
+
+By Indentation we can get the block of code.
+
+Variable:
+It is used to store datatype
+
+Data Type:
+
+Python has several built-in data types:
+
+Data Type |	Example	   |         Type Function |
+Integer	        x = 10	              type(x) -> int
+Float	        y = 3.14	      type(y) -> float
+String	        name = "Bob"	      type(name) -> str
+Boolean	        is_valid = True	      type(is_valid) -> bool
+List	        nums = [1, 2, 3]      type(nums) -> list
+Tuple	        tup = (1, 2, 3)	      type(tup) -> tuple
+Set	        s = {1, 2, 3}	      type(s) -> set
+Dictionary	d = {"key": "value"}  type(d) -> dict
