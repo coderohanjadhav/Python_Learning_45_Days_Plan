@@ -1,0 +1,28 @@
+List :
+
+Python lists are one of the most powerful and widely used data structures.
+They allow you to store multiple items in a single variable.
+
+✔ Lists preserve order (ordered).
+✔ Lists allow duplicates.
+✔ Lists are mutable (can be changed).
+
+How Indexing works it works like it start with index which is mentioned and end befor the last index is mentioned.
+list[start:end:step]
+step is nothing but that every step will be gather for output.
+if mentioned 2 so every second step of list will include as per the conditon.
+#Example: L2 = [1,2,3,4,5,6,7,8,9]
+print(L2[2:6])
+#output:
+[3, 4, 5, 6]
+
+|Method      |	Description|
+append(x)	    Adds x to the end of the list
+insert(i, x)	Inserts x at index i
+remove(x)	    Removes the first occurrence of x
+pop(i)	        Removes item at index i (default: last item)
+index(x)	    Returns index of first occurrence of x
+count(x)	    Counts occurrences of x in list
+sort()	        Sorts the list in ascending order
+reverse()	    Reverses the list
+copy()	        Returns a shallow copy of the list

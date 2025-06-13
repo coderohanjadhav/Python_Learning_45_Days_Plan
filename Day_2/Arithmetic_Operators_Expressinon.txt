@@ -1,0 +1,74 @@
+1. Arithmetic Operators:
+
++ : Addition, - :Substarction, * : Multiplication, / : Division, // (floor), % (modulus), ** (exponentiation)
+
+1. floor gives usr round off value exapmle :
+"How many full times can one number go into another?"
+
+📦 Example:
+If you have 7 chocolates and want to divide them equally among 2 friends:
+
+print(7 // 2)  # Output: 3
+print(7/3) # output 2*3333
+print(7//3) # round of value 
+prs
+
+Each friend gets 3 chocolates
+
+1 chocolate is left (the remainder, which we’ll see in modulus)
+Because it rounds down the result to the nearest whole number (even if the result is a decimal).
+
+2. Modulus %
+"What is left over after division?"
+
+📦 Example:
+Again, 7 chocolates divided among 2 friends:
+
+python
+
+print(7 % 2)  # Output: 1
+After giving 3 each, 1 chocolate remains
+
+So 7 % 2 = 1
+
+3. Exponentiation **
+"Power of a number" – multiply the number by itself multiple times
+
+📦 Example:
+
+print(2 ** 3)  # Output: 8
+Means 2 × 2 × 2 = 8
+(2 raised to the power of 3)
+
+🧠 Real-Life Analogy Recap:
+Operator	Think of it as...	Example	Meaning
+//	How many full boxes you can fill	7 // 2 = 3	3 full boxes
+%	What’s left after packing full boxes	7 % 2 = 1	1 item left over
+**	Repeated multiplication (power)	2 ** 3 = 8	2 × 2 × 2
+
+Logical Operators in Python
+
+| Operator | Meaning                               | Example             | Result  |
+| -------- | ------------------------------------- | ------------------- | ------- |
+| `and`    | True if **both** conditions are True  | `(5 > 2 and 3 < 4)` | `True`  |
+| `or`     | True if **any one** condition is True | `(5 < 2 or 3 < 4)`  | `True`  |
+| `not`    | Reverses the result                   | `not (5 > 2)`       | `False` |
+
+
+
+6. Membership Operators
+These operators check if a value exists in a sequence (like list, string, tuple).
+
+| Operator | Meaning                          | Example            | Result |
+| -------- | -------------------------------- | ------------------ | ------ |
+| `in`     | True if value exists             | `'a' in 'cat'`     | `True` |
+| `not in` | True if value does **not** exist | `'z' not in 'cat'` | `True` |
+
+
+7. Identity Operators
+These check if two variables point to the same object in memory, not just equal values.
+
+| Operator | Meaning                                          | Example      | Result       |
+| -------- | ------------------------------------------------ | ------------ | ------------ |
+| `is`     | True if both variables refer to same object      | `a is b`     | `True/False` |
+| `is not` | True if variables refer to **different** objects | `a is not b` | `True/False` |
