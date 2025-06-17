@@ -1,0 +1,22 @@
+Control Flow in Python
+It includes:
+
+if, elif, else (conditional branching)
+
+Loops:
+
+for loop
+
+while loop
+
+break, continue, and pass (loop control statements)
+
+
+| Statement      | Use Case                                |
+| -------------- | --------------------------------------- |
+| `if/elif/else` | Making decisions                        |
+| `for` loop     | Iterating over known items              |
+| `while` loop   | Repeating until a condition is False    |
+| `break`        | Exiting early from a loop               |
+| `continue`     | Skipping one loop iteration             |
+| `pass`         | Placeholder, syntactically does nothing |
