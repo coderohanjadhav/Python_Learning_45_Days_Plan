@@ -1,0 +1,33 @@
+A function is a block of reusable code that performs a specific task.
+It helps in:
+
+Avoiding repetition
+
+Breaking problems into smaller chunks
+
+Making code modular and readable
+
+
+*args:
+it is used to pass multiple arguments not obstacle of defined arguments.
+
+**kwargs:
+it is used to pass multiple key value argumentsin dictionary form.
+-**kwargs is not limited to dictionaries, but it collects keyword arguments as a dictionary inside a function.
+
+
+| Feature    | Syntax     | What it collects           | Stored As  |
+| ---------- | ---------- | -------------------------- | ---------- |
+| `*args`    | `*args`    | Extra positional arguments | Tuple      |
+| `**kwargs` | `**kwargs` | Extra keyword arguments    | Dictionary |
+
+
+| Type                | Syntax Example             |
+| ------------------- | -------------------------- |
+| Normal Function     | `def greet():`             |
+| With Arguments      | `def greet(name):`         |
+| With Return         | `return value`             |
+| Default Arg         | `def greet(name="Rohan"):` |
+| Variable `*args`    | `def add(*args):`          |
+| Variable `**kwargs` | `def show(**kwargs):`      |
+| Lambda Function     | `lambda x: x + 1`          |
