@@ -1,0 +1,158 @@
+String Characteristics
+Immutable: You can't change individual characters.
+
+Indexed: Characters can be accessed using indices.
+
+Iterable: You can loop over each character.
+
+orderd: every character is proper indexed order.
+
+string[start:end:step]
+
+| Feature           | `lower()`   | `casefold()`                 |
+| ----------------- | ----------- | ---------------------------- |
+| Basic lowercasing | ✅ Yes       | ✅ Yes                        |
+| Unicode-aware     | ❌ No        | ✅ Yes                        |
+| Aggressive?       | ❌ No        | ✅ Yes (handles more cases)   |
+| Recommended for   | Display, UI | Case-insensitive comparisons |
+
+
+Common String Methods:
+
+| Method                   | Description                              |
+| ------------------------ | ---------------------------------------- |
+| `lower()`                | Converts to lowercase                    |
+| `upper()`                | Converts to uppercase                    |
+| `strip()`                | Removes leading/trailing whitespace      |
+| `replace(a, b)`          | Replaces all occurrences of `a` with `b` |
+| `split()`                | Splits the string into a list by spaces  |
+| `'separator'.join(list)` | Joins list into string                   |
+| `find()`                 | Returns first index of substring         |
+| `count()`                | Counts occurrences of substring          |
+
+String Testing Methods:
+
+| ------------------------ | -----------------------------------------|
+| `isalpha()`              | True if all characters are letters       |
+| `isdigit()`              | True if all are digits                   |
+| `isalnum()`              | True if all are letters or digits        |
+| `startswith()`           | Checks how a string begins               |
+| `endswith()`             | Checks how a string ends                 |
+
+
+List Characteristics
+Mutable: You can change elements.
+Indexed: Each element has a position.
+Iterable: You can loop over each character.
+Can hold any data type.
+
+| Method         | Description                          |
+| -------------- | ------------------------------------ |
+| `append(x)`    | Add item to the end                  |
+| `insert(i, x)` | Insert item at index `i`             |
+| `remove(x)`    | Remove first occurrence of `x`       |
+| `pop()`        | Remove and return last item          |
+| `index(x)`     | Get index of first occurrence of `x` |
+| `count(x)`     | Count how many times `x` appears     |
+| `sort()`       | Sort list (ascending by default)     |
+| `reverse()`    | Reverse list in place                |
+| `clear()`      | Remove all items                     |
+
+Useful Built-in Functions
+
+| ----------- | ----------------------- |
+| `len(list)` | Number of items in list |
+| `sum(list)` | Sum of numeric items    |
+| `max(list)` | Largest item            |
+| `min(list)` | Smallest item           |
+
+
+Tuple Characteristics:
+
+| Property          | Tuple                   |
+| ----------------- | ----------------------- |
+| Ordered           | ✅ Yes                   |
+| Indexed           | ✅ Yes                   |
+| Mutable           |  (It is Immutable)  |
+| Allows duplicates | ✅ Yes                   |
+| Heterogeneous     | ✅ Can store mixed types |
+
+
+Set Characteristics:
+
+A set is an unordered, unindexed, and mutable collection of unique elements.
+
+| Feature       | Description                                |
+| ------------- | ------------------------------------------ |
+| Unordered     | No guaranteed order of elements            |
+| No duplicates | Each element is unique                     |
+| Mutable       | You can add/remove elements                |
+| Unindexed     | You **cannot access elements using index** |
+| Iterable      | You can loop through it                    |
+| Heterogeneous     | ✅ Can store mixed types (ONLY = INT FLOAT STRING TUPLE)ONLY HASHABLE elements which never changes|
+
+Set Methods:
+
+| Method              | Purpose                                    | Example            |
+| ------------------- | ------------------------------------------ | ------------------ |
+| `.add(x)`           | Adds a single element                      | `s.add(10)`        |
+| `.update(iterable)` | Adds multiple elements                     | `s.update([4, 5])` |
+| `.remove(x)`        | Removes element, error if not found        | `s.remove(4)`      |
+| `.discard(x)`       | Removes element, **no error** if not found | `s.discard(100)`   |
+| `.pop()`            | Removes & returns a random element         | `s.pop()`          |
+| `.clear()`          | Removes all elements                       | `s.clear()`        |
+
+Set Operations (Mathematical):
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+| Operation          | Method                          | Example | Result         |                      |
+| ------------------ | ------------------------------- | ------- | -------------- | -------------------- |
+| **Union**          | `.union()` / \`                 | \`      | `a.union(b)`   | `{1, 2, 3, 4, 5, 6}` |
+| **Intersection**   | `.intersection()` / `&`         | `a & b` | `{3, 4}`       |       `{3, 4}`       |
+| **Difference**     | `.difference()` / `-`           | `a - b` | `{1, 2}`       |                      |
+| **Symmetric Diff** | `.symmetric_difference()` / `^` | `a ^ b` | `{1, 2, 5, 6}` |                      |
+
+Subset and Superset
+
+x = {1, 2}
+y = {1, 2, 3}
+
+x.issubset(y)     # True (all elements of x are in y)
+y.issuperset(x)   # True (y contains x)
+x.isdisjoint(y)   # False (they share elements)
+
+Dictionary Characteristics:
+
+Dictionary is Key value paired {}.
+Dictionary is orderd from 3.7 python version.
+Dictionary is mutable. chnages can be done.
+Dictionary is hetrogenous in nature in value it can store all datatypes ONLY.
+Dictionary is iterable means you can loop.
+not inDEXABKE BY POSITION BUT CAN ACCESS THRUGH QUEUE.
+
+| **Property**             | **Explanation**                                                                                                | **Example**                                 |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| **Duplicates (Keys)**    | ❌ **Not allowed**. If you add a duplicate key, the **latest value overwrites** the previous one.               | `d = {"a": 1, "a": 2}  # {"a": 2}`          |
+| **Duplicates (Values)**  | ✅ **Allowed**. Different keys can have the same value.                                                         | `d = {"a": 1, "b": 1}  # OK`                |
+| **Heterogeneous Keys**   | ✅ Allowed, but keys **must be immutable & hashable** (str, int, float, tuple). ❌ Not allowed: list, dict, set. | `d = {1: "one", "two": 2, (3,4): "tuple"} ` |
+| **Heterogeneous Values** | ✅ Allowed. Values can be of any data type (mutable or immutable).                                              | `d = {"a": 1, "b": [1,2,3], "c": {"x":10}}` |
+| **Order**                | ✅ Since Python 3.7+, dictionaries **preserve insertion order**.                                                | `{"a":1, "b":2} → keeps this order`         |
+| **Indexing**             | ❌ Cannot use numeric indexes. ✅ Must use **keys** to access values.                                            | `d["a"] → 1`                                |
+| **Iterable**             | ✅ Can iterate over keys, values, or items.                                                                     | `for k,v in d.items(): print(k,v)`          |
+| **Mutable**              | ✅ Dictionary itself is mutable → you can add, update, delete key-value pairs.                                  | `d["new"]=123`                              |
+| **Nested Dictionary**    | ✅ Dictionaries can contain other dictionaries inside them.                                                     | `{"emp": {"id":1,"name":"Rohan"}}`          |
+
+
+Dictionary Methods Overview:
+
+
+| Method     | Description                                          |
+| ---------- | ---------------------------------------------------- |
+| `keys()`   | Returns all keys                                     |
+| `values()` | Returns all values                                   |
+| `items()`  | Returns all key–value pairs                          |
+| `get(key)` | Returns value if key exists, else None               |
+| `pop(key)` | Removes a key and returns its value                  |
+| `update()` | Adds/updates key–value pairs from another dictionary |
+| `clear()`  | Removes all items                                    |
